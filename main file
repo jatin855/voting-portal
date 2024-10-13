@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Voting Portal</title>
+	<style>
+		/* Add some basic styling to the page */
+		body {
+			font-family: Arial, sans-serif;
+			background-image: url('https://img.freepik.com/premium-vector/voting-hand-india-election-vector-illustration_667085-68.jpg'); /* replace with your image URL */
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-color: rgba(242, 242, 242, 0.5); /* reduce opacity of background color */
+		}
+		
+		/* Style the heading */
+		h1 {
+			color: #00698f;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		
+		/* Create a container for the iframe */
+		.container {
+			width: 80%;
+			margin: 40px auto;
+			padding: 20px;
+			border-radius: 10px;
+		}
+		
+		/* Style the iframe */
+		iframe {
+			width: 100%;
+			height: 800px;
+			border: none;
+		}
+	</style>
+</head>
+<body>
+	<h1 style = "color :black; font-size:40px">Voting Portal</h1>
+	<div class="container">
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdA08H-uyC77_goQLfwRXEke56H5l7yZ9SWjILK0rzehmFXKg/viewform?embedded=true" 
+        width="640" 
+        height="1047" 
+        frameborder="0" 
+        marginheight="0" 
+        marginwidth="0">Loading…</iframe>
+	</div>
+</body>
+</html>
